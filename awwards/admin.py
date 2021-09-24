@@ -5,5 +5,5 @@ from .models import Profile,Project,Rating
 # Register your models here.
 
 admin.site.register(Profile)
-# admin.site.register(Project)
+admin.site.register(Project)
 # admin.site.register(Rating)
