@@ -22,7 +22,7 @@
 - virtual environment
 - pip
 ## Clone the Repo and rename it to suit your needs.
-- git clone https://github.com/marykamau2/Mary_Instagram
+- git clone https://github.com/marykamau2/awwards
 - Initialize git and add the remote repository
 - git init
 - git remote add origin <your-repository-url>
