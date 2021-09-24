@@ -1,4 +1,4 @@
-<!-- ### Project Name
+### Project Name
  - Awwards
 
 ### Author
@@ -51,4 +51,4 @@
 - HTML
 - CSS
 ### Licence
-- This project is under the MIT licence -->
+- This project is under the MIT licence
