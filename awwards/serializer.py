@@ -7,7 +7,7 @@ class ProfileSerializer(serializers.ModelSerializer):
         fields = ('user','profile_photo','bio','location','contact') 
         
         
-# class ProjectsSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Project
-#         fields = ('title','url','description','technologies','cover_photo')
+class ProjectsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Project
+        fields = ('title','url','description','technologies','cover_photo')
