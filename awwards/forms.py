@@ -40,7 +40,7 @@ class RatingsForm(forms.ModelForm):
         fields = ['design', 'usability', 'content']
 
 
-# class UserProfileForm(forms.ModelForm):
-#     class Meta:
-#         model = Profile
-#         exclude = ['user']    
+class UserProfileForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        exclude = ['user']    
