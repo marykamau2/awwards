@@ -127,10 +127,10 @@ class Rating(models.Model):
         self.save()
 
 
-#     @classmethod
-#     def get_project_ratings(cls, id):
-#         ratings = Rating.objects.filter(project_id=id).all()
-#         return ratings
+    @classmethod
+    def get_project_ratings(cls, id):
+        ratings = Rating.objects.filter(project_id=id).all()
+        return ratings
 
-#     def __str__(self):
-#         return str(self.id)
+    def __str__(self):
+        return str(self.id)
