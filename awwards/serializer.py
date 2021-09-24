@@ -1,10 +1,10 @@
-# from rest_framework import serializers
-# from .models import Project,Profile
+from rest_framework import serializers
+from .models import Project,Profile
 
-# class ProfileSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Profile
-#         fields = ('user','profile_photo','bio','location','contact') 
+class ProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ('user','profile_photo','bio','location','contact') 
         
         
 # class ProjectsSerializer(serializers.ModelSerializer):
